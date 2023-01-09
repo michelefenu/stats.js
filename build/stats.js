@@ -81,7 +81,7 @@
 				msPanel.update( time - beginTime, 200 );
 
 				if ( time >= prevTime + 10000 ) {
-
+					console.log('log');
 					fpsPanel.update( ( frames * 1000 ) / ( time - prevTime ), 100 );
 
 					prevTime = time;
